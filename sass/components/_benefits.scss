@@ -1,0 +1,33 @@
+/*--------------------НАШІ ПЕРЕВАГИ--------------------  */
+.benefits__list {
+  display: flex;
+  gap: 30px;
+}
+
+.benefits__link {
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: var(--team-bg-color);
+  cursor: auto;
+}
+
+.benefits__heading {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.benefits__text {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  color: $secondary-text-color;
+  line-height: 1.71;
+}
