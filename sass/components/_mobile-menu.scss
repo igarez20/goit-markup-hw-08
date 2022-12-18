@@ -1,0 +1,21 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  z-index: 5;
+  transform: translateX(100%);
+  transition: transform $time-duration $time-function;
+  background-color: $primary-white-color;
+  overflow-y: scroll;
+}
+
+.mobile-menu.is-open {
+  transform: translateX(0);
+}
