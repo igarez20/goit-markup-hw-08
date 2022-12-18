@@ -35,6 +35,10 @@
   &:focus {
     fill: $accent-color;
   }
+
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
 }
 
 .mobile-menu__item:not(:last-child) {

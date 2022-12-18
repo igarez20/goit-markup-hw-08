@@ -148,6 +148,11 @@ address {
 .mobile-menu__button:hover, .mobile-menu__button:focus {
   fill: #2196f3;
 }
+@media screen and (min-width: 768px) {
+  .mobile-menu__button {
+    display: none;
+  }
+}
 
 .mobile-menu__item:not(:last-child) {
   margin-bottom: 32px;
