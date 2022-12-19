@@ -1,5 +1,9 @@
 /* --------------------ЛОГОТИП-------------------- */
 .logo {
+  display: inline-block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
   color: $accent-color;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
