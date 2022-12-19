@@ -3,6 +3,18 @@
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+
+  @media screen and (max-width: 767px) {
+    max-width: 480px;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: $tablet;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: $desktop;
+  }
 }
 
 .section {
