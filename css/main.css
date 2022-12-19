@@ -110,22 +110,53 @@ address {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+@media screen and (min-width: 768px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 
 /*--------------------НАВІГАЦІЯ САЙТУ--------------------  */
+@media screen and (min-width: 768px) {
+  .header__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .header__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: 95px;
 }
+.header__list .header__item:not(:last-child) {
+  margin-right: 50px;
+}
 @media screen and (max-width: 767px) {
   .header__list {
     display: none;
   }
-}
-
-.header__item:not(:last-child) {
-  margin-right: 50px;
 }
 
 .header__link {
@@ -170,6 +201,16 @@ address {
 @media screen and (max-width: 767px) {
   .header__feedback {
     display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header__feedback {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header__feedback .header__item:not(:last-child) {
+    margin-bottom: 10px;
   }
 }
 
