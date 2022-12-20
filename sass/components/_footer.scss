@@ -1,13 +1,26 @@
 /*--------------------ПІДВАЛ--------------------  */
 .footer {
-  background-color: $secondary-bg-color;
   padding-top: 60px;
   padding-bottom: 60px;
+
+  background-color: $secondary-bg-color;
 }
 
 .footer__container {
-  display: flex;
-  align-items: baseline;
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+.footer__box {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
 }
 
 /*--------------------КОНТАКТИ--------------------  */
@@ -20,7 +33,7 @@
   margin-bottom: 9px;
 }
 
-.footer__address {
+.footer__location {
   color: $primary-white-color;
   line-height: 1.71;
 
