@@ -26,6 +26,8 @@
 .benefits__card {
   display: flex;
   height: 120px;
+
+  margin-bottom: 30px;
   justify-content: center;
   align-items: center;
   background-color: $team-bg-color;
@@ -38,6 +40,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-align: center;
   text-transform: uppercase;
 }
 

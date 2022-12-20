@@ -87,14 +87,13 @@
     display: block;
   }
 
-  @media screen and (min-width: $tablet) {
+  @media screen and (min-width: $tablet) and (max-width: 1199px) {
     & .header__item:not(:last-child) {
       margin-bottom: 10px;
     }
   }
   @media screen and (min-width: $desktop) {
     & .header__item:not(:last-child) {
-      margin-bottom: 0;
       margin-right: 30px;
     }
   }
