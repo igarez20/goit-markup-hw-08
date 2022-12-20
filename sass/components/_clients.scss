@@ -1,20 +1,28 @@
 /*--------------------КЛІЄНТИ--------------------  */
 .clients__title {
-  margin-top: 0;
   margin-bottom: 50px;
 }
 
 .clients__list {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  @media screen and (min-width: $desktop) {
+    flex-wrap: nowrap;
+  }
 }
 
 .clients__item {
-  width: 170px;
-  height: 92px;
+  flex-basis: calc((100% / 2) - 15px);
 
-  &:not(:last-child) {
-    margin-right: 30px;
+  @media screen and (min-width: $tablet) {
+    flex-basis: calc((100% / 3) - 20px);
+  }
+
+  @media screen and (min-width: $desktop) {
+    flex-basis: calc((100% / 6));
   }
 }
 
