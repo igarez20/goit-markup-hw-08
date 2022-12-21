@@ -119,7 +119,7 @@ address {
   border: 1px solid transparent;
   border-radius: 4px;
   min-width: 73px;
-  background-color: var(--btn-bg-color);
+  background-color: #f5f4fa;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -1202,6 +1202,9 @@ address {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   margin-bottom: 50px;
 }
 
