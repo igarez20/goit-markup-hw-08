@@ -4,8 +4,8 @@
   top: 50%;
   left: 50%;
 
-  width: 528px;
-  height: 581px;
+  max-width: 450px;
+  width: 100%;
   padding: 40px;
 
   background-color: $primary-white-color;
@@ -20,6 +20,10 @@
   .backdrop.is-hidden & {
     transform: translate(-50%, -50%) scale(1.1);
   }
+
+  @media screen and (min-width: $desktop) {
+    max-width: 528px;
+  }
 }
 
 .modal__appeal {
@@ -29,7 +33,11 @@
 
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
+
+  @media screen and (min-width: $desktop) {
+    line-height: 1.15;
+  }
 }
 
 .modal__close-btn {
@@ -58,7 +66,7 @@
 }
 
 .modal__form {
-  width: 448px;
+  width: 100%;
 }
 
 .form__field {
@@ -134,6 +142,14 @@
   display: block;
   text-align: center;
   margin-bottom: 30px;
+
+  font-size: 12px;
+  line-height: 1.17;
+
+  @media screen and (min-width: $desktop) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .form__checkbox {
