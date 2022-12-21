@@ -710,6 +710,21 @@ address {
   background-color: #2f303a;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer__container {
     display: -webkit-box;
@@ -724,20 +739,6 @@ address {
 @media screen and (max-width: 767px) {
   .footer__box {
     margin-bottom: 60px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .footer__box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -779,6 +780,17 @@ address {
   text-align: center;
   margin-bottom: 60px;
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__social {
+    margin-left: 165px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__social {
+    margin-left: 70px;
+  }
+}
 
 .footer__appeal {
   margin: 0 0 20px 0;
@@ -789,8 +801,27 @@ address {
 }
 
 /*--------------------ПІДПИСКА--------------------  */
-.subscription {
-  text-align: center;
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .subscription {
+    margin-top: 60px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscription {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .subscribe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
 }
 
 .subscribe__field {
@@ -808,6 +839,16 @@ address {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   outline: none;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .subscribe__field {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe__field {
+    width: 358px;
+  }
 }
 
 .subscribe__btn {
@@ -836,6 +877,11 @@ address {
 }
 .subscribe__btn:hover, .subscribe__btn:focus {
   background-color: #188ce8;
+}
+@media screen and (min-width: 1200px) {
+  .subscribe__btn {
+    margin-left: 12px;
+  }
 }
 
 .subscribe__icon {
