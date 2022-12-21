@@ -753,7 +753,8 @@ address {
 }
 
 .footer__social {
-  margin-left: 70px;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .footer__appeal {
@@ -766,12 +767,18 @@ address {
 
 /*--------------------ПІДПИСКА--------------------  */
 .subscription {
-  margin-left: auto;
+  text-align: center;
 }
 
 .subscribe__field {
-  width: 358px;
-  margin-right: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 450px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
   padding: 15px 16px;
   color: #ffffff;
   background-color: inherit;
