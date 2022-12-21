@@ -1256,15 +1256,15 @@ address {
 }
 @media screen and (min-width: 768px) {
   .examples__nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
   .examples__nav {
     margin-bottom: 50px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }
 
