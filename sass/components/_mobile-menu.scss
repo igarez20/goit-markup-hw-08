@@ -58,6 +58,10 @@
   &:focus {
     color: $accent-color;
   }
+
+  &.current {
+    color: $accent-color;
+  }
 }
 
 .mobile-menu-contact {
