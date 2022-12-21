@@ -62,6 +62,10 @@ address {
   }
 }
 
+.section {
+  padding: 60px 0 60px 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
