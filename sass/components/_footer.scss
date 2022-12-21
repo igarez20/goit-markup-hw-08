@@ -18,6 +18,13 @@
     margin-bottom: 60px;
   }
 
+  @media screen and (min-width: $tablet) and (max-width: 1199px) {
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+  }
+
   @media screen and (max-width: 1199px) {
     text-align: center;
   }
