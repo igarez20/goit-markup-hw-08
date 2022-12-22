@@ -80,6 +80,16 @@
   overflow: hidden;
 }
 
+.examples__image {
+  @media screen and (min-width: $tablet) {
+    width: 354px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 370px;
+  }
+}
+
 .examples__overlay {
   position: absolute;
   top: 0;
