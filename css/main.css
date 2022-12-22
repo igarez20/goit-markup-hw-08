@@ -801,10 +801,14 @@ address {
 }
 
 /*--------------------ПІДПИСКА--------------------  */
+@media screen and (max-width: 1199px) {
+  .subscription {
+    text-align: center;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .subscription {
     margin-top: 60px;
-    text-align: center;
   }
 }
 @media screen and (min-width: 1200px) {
