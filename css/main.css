@@ -788,6 +788,7 @@ address {
 }
 @media screen and (min-width: 1200px) {
   .footer__social {
+    text-align: unset;
     margin-left: 70px;
   }
 }
